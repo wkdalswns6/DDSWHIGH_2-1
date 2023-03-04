@@ -27,4 +27,4 @@ git psuh
 
 ```
 
-[mdlink]: https://gist.github.com/ihoneymon/652be052a0727ad59601 'aa'
+md 문법 : [mdlink]: https://gist.github.com/ihoneymon/652be052a0727ad59601
