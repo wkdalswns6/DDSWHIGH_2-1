@@ -24,4 +24,4 @@ git commit -m "작성할 메세지"
 git push
 ```
 
-##### - md 문법 : https://gist.github.com/ihoneymon/652be052a0727ad59601
+##### [Title](md 문법) [link](https://gist.github.com/ihoneymon/652be052a0727ad59601, 'link')
