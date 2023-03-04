@@ -27,5 +27,6 @@ git psuh
 
 ```
 
-[md문법 정리][mdlink]
-[mdlink]: https://gist.github.com/ihoneymon/652be052a0727ad59601
+Link: [Google][googlelink]
+
+[googlelink]: https://google.com 'Go google'
