@@ -5,6 +5,6 @@
     1. 깃허브 사용법
     2. pygame
 
-```
+```python
 print("hello world")
 ```
