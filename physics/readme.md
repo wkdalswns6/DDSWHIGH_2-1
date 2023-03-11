@@ -82,3 +82,13 @@ xpos += xspeed
 ypos += yspeed
 pygame.draw.circle(screen, (255, 255, 255), (xpos, ypos), rad)
 ```
+
+---
+
+## accel.py
+
+```python
+# 같은 가속도 만큼 더해준다.(등가속도운동)
+xspeed += xa # xa = 가속도
+yspeed += ya # ya = 가속도
+```
