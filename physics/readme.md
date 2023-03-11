@@ -73,7 +73,7 @@ while running:
 
 > 원 움직이기
 
-### ✨ pygame 원 이동하기
+### ✨ pygame 원 이동하기(속력)
 
 ```python
 #같은 방향으로 1프레임당 xspeed 만큼 더한다(등속운동)
@@ -86,6 +86,10 @@ pygame.draw.circle(screen, (255, 255, 255), (xpos, ypos), rad)
 ---
 
 ## accel.py
+
+> 원 움직이기
+
+### ✨ pygame 원 이동하기(가속도)
 
 ```python
 # 같은 가속도 만큼 더해준다.(등가속도운동)
