@@ -53,3 +53,15 @@ while running:
     # 화면 업데이트
     pygame.display.update()
 ```
+
+---
+
+## draw_circle.py
+
+> 원 그리기
+
+### ✨ pygame 원 그리기
+
+```python
+ pygame.draw.circle(screen, (255, 255, 255), (xpos, ypos), rad) #좌표,반지름은 변칙적임으로 변수 설정
+```

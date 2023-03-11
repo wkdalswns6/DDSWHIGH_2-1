@@ -19,4 +19,5 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
+    # 화면 업데이트
     pygame.display.update()
