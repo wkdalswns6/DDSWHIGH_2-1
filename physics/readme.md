@@ -65,3 +65,18 @@ while running:
 ```python
  pygame.draw.circle(screen, (255, 255, 255), (xpos, ypos), rad) #좌표,반지름은 변칙적임으로 변수 설정
 ```
+
+---
+
+## velocity.py
+
+> 원 움직이기
+
+### ✨ pygmae 원 이동하기
+
+```python
+    xpos += xspeed
+    ypos += yspeed
+    pygame.draw.circle(screen, (255, 255, 255), (xpos, ypos), rad)
+
+```
