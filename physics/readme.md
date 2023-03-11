@@ -77,6 +77,7 @@ while running:
 
 ```python
 #같은 방향으로 1프레임당 xspeed 만큼 더한다(등속운동)
+#같은 방향으로 1프레임당 yspeed 만큼 더한다.
 xpos += xspeed
 ypos += yspeed
 pygame.draw.circle(screen, (255, 255, 255), (xpos, ypos), rad)
