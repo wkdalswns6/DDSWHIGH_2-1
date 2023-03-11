@@ -63,7 +63,8 @@ while running:
 ### ✨ pygame 원 그리기
 
 ```python
- pygame.draw.circle(screen, (255, 255, 255), (xpos, ypos), rad) #좌표,반지름은 변칙적임으로 변수 설정
+#좌표,반지름은 변칙적임으로 변수 설정
+ pygame.draw.circle(screen, (255, 255, 255), (xpos, ypos), rad)
 ```
 
 ---
@@ -72,11 +73,11 @@ while running:
 
 > 원 움직이기
 
-### ✨ pygmae 원 이동하기
+### ✨ pygame 원 이동하기
 
 ```python
-    xpos += xspeed
-    ypos += yspeed
-    pygame.draw.circle(screen, (255, 255, 255), (xpos, ypos), rad)
-
+#같은 방향으로 1프레임당 xspeed 만큼 더한다(등속운동)
+xpos += xspeed
+ypos += yspeed
+pygame.draw.circle(screen, (255, 255, 255), (xpos, ypos), rad)
 ```
